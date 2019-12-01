@@ -1,0 +1,132 @@
+/* .react-multi-carousel-item  .carousel-item{
+    width: 100px!important;
+} */
+
+.BackgroundCardStreamDiscover{
+    background: white;   
+    cursor: pointer;
+    margin: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: 0.2s all ;
+}
+
+
+.BackgroundCardStreamDiscover p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: initial;
+    padding: 10px;
+}
+
+.BackgroundCardStreamDiscover:hover{
+    transform: translateY(-10px);
+    margin-bottom: 8px;
+}
+
+.player  {
+    background: #fff!important;
+    
+}
+
+#video-playback{
+    background: #fff!important;
+    
+}
+
+.pl-hover-transition-out{
+    display: none!important;
+}
+
+.hover-display{
+    display: none;
+}
+
+.displayLive{
+    background: #1f1f23;
+}
+
+.plaervideoT{
+    height: 500px;
+}
+
+
+.ProfilLiveInfo {
+    height: 100%;
+    margin: auto;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pl-controls-top{
+    background: white!important;
+}
+.InfoProfilLive {
+    text-align: left;
+    margin: auto;
+    padding-left: 5px;
+    display: flex;
+    width: 100%;
+    font-size: smaller;
+}
+
+.SizeStreamImgLive {
+    width: 70px!important;
+    height: 70px!important;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.Title {
+    font-size: medium;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.Spec{
+    margin: 3px 20px;
+    text-align: center;
+    width: 22%;
+}
+
+.ElipsisDiscover {
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Resize{
+    width: 52%;
+    margin: auto;
+    background: #f4f4f4;
+}
+
+@media screen and (max-width: 1250px) {
+
+    .Resize{
+        width: 85%;
+        margin: auto;
+    }
+    .ProfilLiveInfo{
+        display: none;
+    }
+    .rec-pagination{
+        display: none!important;
+    }
+    
+  
+}
+
+.gaaBdk{
+    padding: 0!important;
+}

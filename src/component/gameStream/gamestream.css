@@ -1,0 +1,28 @@
+.BackgroundCardGameStream{
+    background: white;   
+    cursor: pointer;
+    margin: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: 0.2s all ;
+}
+
+
+.BackgroundCardGameStream p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: initial;
+    padding: 10px;
+}
+
+.BackgroundCardGameStream:hover{
+    transform: translateY(-10px);
+    margin-bottom: 8px;
+    -webkit-box-shadow: 3px 6px 23px 3px #9147ff;
+-moz-box-shadow: 3px 6px 23px 3px #9147ff;
+box-shadow: 3px 6px 23px 3px #9147ff;
+    
+}

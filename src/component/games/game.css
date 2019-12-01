@@ -1,0 +1,84 @@
+.TitleGame{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+.DisplayGame{
+    width: 100%;
+    background: #f4f4f4;
+
+}
+
+.ListGame{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.NotLoad{
+    height: 100vh;
+}
+
+.BackgroundCard{
+    background: white;   
+    cursor: pointer;
+    margin: 15px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    width: 200px;
+    position: relative;
+    transition: 0.2s all ;
+}
+
+.BackgroundCard p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: initial;
+    padding: 10px;
+}
+
+.BackgroundCard:hover{
+    transform: translateY(-10px);
+    margin-bottom: 8px;
+    -webkit-box-shadow: 3px 6px 23px 3px #9147ff;
+-moz-box-shadow: 3px 6px 23px 3px #9147ff;
+box-shadow: 3px 6px 23px 3px #9147ff;
+    
+}
+
+.ImgGame{
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    background: #17171b;
+    color: white;
+    width: 160px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    border: none;
+    outline:none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1250px) {
+    .TitleGame{
+        font-size: 1.2em;
+    }
+  }

@@ -1,0 +1,160 @@
+.Sidebar{
+    background: #1f1f23;
+    width: 280px;
+    height: auto;
+    justify-content: left;
+    color: white;
+    padding-top: 30px;
+}
+
+h4{
+    text-align: center;
+    padding: 8px;
+}
+
+p{
+    color: white;
+}
+
+.Placement {
+    margin: auto;
+    padding-top: 15px;
+    display: block;
+    width: 245px;
+    text-align: center;
+}
+
+.fiXed{
+    position: sticky;
+    width: 245px;
+}
+
+.Respons{
+    position: fixed;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+  }
+
+.CenterMobile{
+    text-align: center;
+    margin: 30px auto;
+    position: fixed;
+}
+
+.SizeStreamImg img{
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.SizeStreamImg {
+    width: 50px!important;
+    height: 50px!important;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.InfoProfil{
+    text-align: left;
+    margin: auto;
+    padding-left: 5px;
+    font-size: smaller;
+}
+
+.login{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-Weight: "bold";
+    font-Size: 1.1em;
+}
+
+.Lien {
+    text-decoration: none;
+}
+
+.Float{
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aria-describedby{
+    border: 0!important;
+}
+
+.Elipsis{
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ElipsisTooltip{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ProfilTooltip{
+    font-size: 1.2em; 
+    padding: 10px;
+    width: 200px;
+    border: 0; 
+    background: #1f1f23
+}
+
+.Profil{
+    display: flex;
+    /* margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px; */
+}
+
+.Profil:hover{
+    background: #313135;
+    cursor: pointer;
+    
+    transition: 0.2s;
+}
+
+
+.ViewCount{
+    font-size: x-small;
+    display: flex;
+    width: 46px;
+    padding-left: 3px;
+    margin-top: -12px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1250px) {
+    .Sidebar{
+        width: 70px;
+    }
+    .Respons{
+        display: none;
+    }
+    .fiXed{
+        position: sticky;
+        text-align: center;
+        margin: auto;
+        width: 56px;
+    }
+  }
+
+  @media screen and (min-width: 1250px) {
+    .CenterMobile{
+        display: none;
+    }
+  }
