@@ -1,8 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, run:
+Clone de twitch en React 
 
-" npm install " for dependencies
-              &
-" npm start " to run the project 
-
+Lien vers l'appli => <a href="https://twitch-react.netlify.app/">Applications</a>
