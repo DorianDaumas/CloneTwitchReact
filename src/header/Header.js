@@ -67,7 +67,7 @@ export default class header extends Component {
                         </li>
     
     
-                        <li className="search">
+                        <li className="search" style={{width: "100%" ,textAlign: "center"}}>
                             <form className="formSubmit" onSubmit={handleSubmit}>
                             <Input
                                 placeholder="Cherchez un streamer.."
