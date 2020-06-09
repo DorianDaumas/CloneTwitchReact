@@ -69,10 +69,6 @@
     text-decoration: none;
 }
 
-.search{
-    width: 100%;
-    text-align: center;
-}
 
 .SearchImg{
     width: 100%;
@@ -113,5 +109,10 @@ button{
         margin-bottom: -5px;
         margin-right: 22px;
     }
+    .search{
+        width: 100%;
+        text-align: center;
+    }
+    
   }
 
