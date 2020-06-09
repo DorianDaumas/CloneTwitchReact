@@ -69,6 +69,11 @@
     text-decoration: none;
 }
 
+.search{
+    width: 100%;
+    text-align: center;
+}
+
 .SearchImg{
     width: 100%;
     height: 100%;

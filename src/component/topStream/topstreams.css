@@ -12,6 +12,16 @@
     
 }
 
+@media screen and (max-width: 650px) {
+    .ListChannels{
+        padding: 0px;        
+    }
+    .BackgroundCardStream{
+        margin: 15px;
+    }
+    
+  }
+
 .Lien{
     text-decoration: none;
 }
