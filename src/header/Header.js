@@ -41,14 +41,14 @@ export default class header extends Component {
     
                     <ul className="ListMenu">
     
-                        <li className="LienNav">
+                        {/* <li className="LienNav">
                             <img alt='onglet decouverte' className="discover" src={compass} />
                             <Link to="/discover" > Découvrir </Link>
                         </li>
 
                         <li className="discover">
                             <Link to="/discover" > <img className="discover" alt='onglet decouverte' width="25px" src={compass} /> </Link>
-                        </li>
+                        </li> */}
                         
                         <li className="LienNav">
                             <Link to="/top-games" > Les jeux les plus populaires </Link>
